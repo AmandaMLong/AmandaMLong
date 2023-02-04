@@ -638,6 +638,22 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
+	
+	.under {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          z-index: -1;
+          opacity: 0.45;
+        }
+
+        .over {
+          position: absolute;
+          left: 40px;
+          top: 10px;
+          z-index: -1;
+          opacity: 0.2;
+        }
 
 		.image:before {
 			pointer-events: none;
