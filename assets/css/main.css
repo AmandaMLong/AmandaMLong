@@ -1002,7 +1002,7 @@ input, select, textarea {
 					}
 
 					#header nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.2);
+						background-color: rgba(255, 255, 255, 0.4);
 					}
 
 		#header nav.use-middle:after {
